@@ -1,0 +1,251 @@
+/*for the great magritte */
+
+
+
+
+body{
+	background-color:#172436;
+	margin:0;
+}
+
+header {
+	margin-bottom:0em;
+	/* 
+display: flex;
+	flex-wrap: wrap;
+ */
+	
+}
+
+header img{
+	width:100%;
+	initial-scale=1.0;
+}
+
+
+.smallnav{
+	font-size:1em;
+	text-align:center;
+	margin-top:15em;
+	
+	}
+
+.smallnav li{
+	color:#707070;
+	margin:5em;
+	list-style-type:none;
+
+}
+
+.smallnav a{
+	text-decoration:none;
+}
+
+.inline{
+	display:table-row-group;
+}
+
+h2{
+	
+	font-size:0.85em;
+	font-family: 'Cinzel', serif;
+	
+	width:72%;
+	text-align:center;
+	margin-left:0.8em;
+	margin-top:5em;
+	position:relative;
+	background-color:lavender;
+	padding:2.5em;
+	
+}
+
+h2 li{
+	list-style-type:none;
+	color:#707070;
+}
+
+
+
+
+.home{
+	display:inline;
+}
+
+
+	
+/* 
+.hpositive{
+	position:absolute;
+	left:0
+}
+
+.hnegative{
+	position:absolute;
+	left:19.6em;
+}
+ */
+
+.background{
+	background-image: url("pictures/background.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size:100%;
+
+}
+
+
+
+
+.framedpics{
+	position:relative;
+	margin-top:0em;
+	margin-left:2.5em;
+	margin-right:0.8;
+}
+
+
+.framedpics img{
+	width:90px;
+	display:block;
+	margin-bottom:0.5em;
+	margin-right:0;
+
+}
+
+
+.framedpicss{
+	position:relative;
+	margin-top:0em;
+	margin-left:2.5em;
+	margin-right:0.8;
+}
+
+
+.framedpicss img{
+	width:90px;
+	display:block;
+	margin-bottom:0.5em;
+	margin-right:0;
+
+}
+
+
+.circle {
+  height: 300px;
+  width:300px;
+  border-radius: 50%;
+  background: lavender;
+  margin-left:0.6em;
+}
+
+.smallcircle {
+  height: 150px;
+  width:300px;
+  border-radius: 50%;
+  margin-left:0.6em;
+}
+
+
+
+.rectangle {
+	height: 220px;
+	width:97%;
+	background: lavender;
+	margin-left:0.6em;
+}
+
+
+.forRectangle{
+	display:inline-block;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	position:absolute;
+}
+
+
+
+
+.fortext{
+	margin:0;
+	padding-bottom:0em;
+	display:flex;
+	flex-wrap:wrap;
+	position:absolute;
+
+}
+
+
+.deco{
+	width:10em;
+	position: relative;
+	height:20em;
+	padding:1em;
+	
+}
+
+
+
+.gallerypics img{
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+	width:80%;
+	margin-bottom:1em;
+	margin-top:2em;
+}
+
+nav li{
+	display:inline-block;
+	margin:0.5em;
+	padding-left:0;
+	border-left:1px;
+	padding-right:0.8em;
+	
+}
+
+nav a{
+	text-decoration:none;
+	background-color:#77902B;
+}
+
+nav a:hover{
+	text-decoration:none;
+	background-color:#ABA930;
+}
+
+.social{
+
+	margin:0.5em;
+	width:1.6em;
+	padding-top:0.8em;
+}
+
+.sidebyside{
+	display: flex;
+	justify-content: center;
+}
+
+
+footer{
+	position: relative;
+	background-color:#D16F3B;
+	width:100%;
+	margin-bottom:0;
+	
+
+}
+
+footer a:hover { 
+    color: #A24311;
+}
+
+footer a{
+	text-decoration:none;
+	border-color:LightGrey;
+	border:0.1em;
+	
+}
